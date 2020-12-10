@@ -1,0 +1,96 @@
+.page-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  height: 85vh;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.column {
+  padding: 40px;
+  width: 45vw;
+}
+
+h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.side-nav {
+  margin-top: 45px;
+  padding-top: 25px;
+  width: 15vw;
+  background-color: #05386b;
+  color: white;
+}
+
+.column .side-nav {
+  height: 70vh;
+  margin-top: 0;
+}
+
+.side-nav li {
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.side-nav ul ul li {
+  font-size: 13px;
+}
+
+.side-nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.side-nav ul ul {
+  display: none;
+}
+
+.side-nav ul li:hover > ul {
+  display: block;
+}
+
+.side-nav ul li:hover {
+  background: #4bac76;
+  color: #05386b;
+}
+
+.side-nav ul li a:hover {
+  background: #4bac76;
+  color: #05386b;
+}
+
+img {
+  padding-top: 40px;
+  width: 75%;
+  height: 75%;
+}
+
+/*About page CSS*/
+
+.about-page-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  height: 85vh;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#about-page-text {
+  margin-left: 40px;
+  padding-top: 40px;
+  width: 45vw;
+}
+
+#about-page-text .side-nav {
+  height: 70vh;
+  margin-top: 0;
+}
+
+p {
+  line-height: 2;
+}
